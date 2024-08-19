@@ -1,0 +1,106 @@
+/* 01-Base Settings */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden
+}
+
+html,body {
+  position: relative;
+  height: 100%;
+  font-size: 1.6px;
+}
+body {
+  font-family: $bodyFont;
+  background: $white;
+  color: $black;
+}
+//body
+//
+h1,h2,h3,h4,h5,h6 {
+  font-family: $headingFont;
+  color: $black;
+  font-style:normal;
+  font-weight:normal
+}
+h1 {font-size: 56px;}
+h2 {font-size: 34px;}
+h3 {font-size: 28px;}
+h4 {font-size: 22px;}
+h5 {font-size: 18px;}
+h6 {font-size: 15px;}
+// End Of Heading
+//
+p {
+  font-size: 16px;
+}
+//p
+img {
+  max-width: 100%;
+  height: auto;
+}
+//img
+//
+a {
+  font-size: 16px;
+  color: $black;
+  text-decoration: none;
+  transition: .35s;
+  &:hover,
+  &:focus {
+    transition: .35s;
+  }
+}
+//a
+//
+ul,ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+//ul & ol
+//
+hr {
+  background: $textWhite;
+  border:0;
+  height: 1px;
+  border-bottom: 0;
+  border-color: 0;
+  margin-bottom: 3px;
+}
+//hr
+//
+blockquote {
+  color: $textWhite;
+  font-size: 16px;
+  margin-right: 2px;
+  margin-top: 16px;
+  margin-bottom: 22px;
+  border-left: 4px solid $accentColor;
+  font-style: italic;
+  line-height: 28px;
+}
+//blockquote
+//
+pre {
+
+  background: $textWhite;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom:0;
+  padding: 15px;
+  overflow: auto;
+  max-width: 100%;
+  border: 0;
+  border-radius: 0;
+}
+//Pre
+//
+i {
+  font-style: normal;
+}
